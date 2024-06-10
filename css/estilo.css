@@ -2,10 +2,6 @@
  margin: 0;
  padding: 0;
 }
-.hero{
-    background-color: #F4FCFF;
-
-}
 .Ball{
     width: 50px;
 }
@@ -43,4 +39,61 @@ header div:last-child a {
     padding: 15px 17px;
     border-radius: 5px;
     color: #6851db ;
+}
+.hero {
+    display: flex;
+    align-items: center;
+    background-color: #F4FCFF; /* Ajusta el fondo verde */
+}
+
+.hero div:first-child {
+    flex: 1; /* Hace que este div ocupe el 50% del ancho */
+    padding-left: 20px; /* Añade espacio a la izquierda para separar los elementos */
+    margin-bottom: 100px;
+}
+
+.hero div:last-child {
+    flex: 1; /* Hace que este div ocupe el 50% del ancho */
+    padding-left: 20px; /* Añade espacio a la izquierda para separar los elementos */
+}
+
+.hero img {
+    max-width:  90%; 
+    margin-left: 60px; /* Ajusta el espacio entre la imagen y el borde izquierdo */
+    margin-right: 20px;
+    margin-top: 150px;
+}
+
+.hero h3 {
+    margin-top: 60px; 
+    margin-bottom: 10px; 
+    margin-left: 40px;
+    font-size: 17px;
+}
+
+.hero h1 {
+    margin-top: 10px;
+    margin-bottom: 10px; 
+    margin-left: 40px;
+    font-size: 60px;
+}
+
+.hero p {
+    margin-left: 40px;
+    font-size: 20px;
+    margin-bottom: 60px;
+}
+
+.hero a {
+    display: inline-block;
+    background-color:#5E3BEF;
+    color: white;
+    padding: 15px 20px;
+    text-decoration: none;
+    border-radius: 3px;
+    margin-left: 40px;
+    margin-top: 0;
+}
+.hero a:hover {
+    background-color: black; 
 }
