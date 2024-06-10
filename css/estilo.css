@@ -3,10 +3,44 @@
  padding: 0;
 }
 .hero{
-    background-color: azure;
+    background-color: #F4FCFF;
 
 }
 .Ball{
     width: 50px;
 }
-
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 30px 60px;
+    background-color: #f1f1f1;
+}
+header div:first-child {
+    display: flex; 
+    align-items: center;
+    font-size:20px; 
+}
+.Shah {
+    color: #006762; 
+}
+header div:nth-child(2) {
+    justify-content: center;
+}
+header div:last-child {
+    justify-content: flex-end;
+}
+header nav a {
+    margin: 0 12px;
+    text-decoration: none;
+    color: #272837;
+}
+header nav :hover {
+    color: #6851db; 
+}
+header div:last-child a {
+    border: 2px solid #947FF8; /* Borde violeta */
+    padding: 15px 17px;
+    border-radius: 5px;
+    color: #6851db ;
+}
