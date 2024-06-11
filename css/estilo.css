@@ -45,46 +45,39 @@ header div:last-child a {
     align-items: center;
     background-color: #F4FCFF; /* Ajusta el fondo verde */
 }
-
 .hero div:first-child {
     flex: 1; /* Hace que este div ocupe el 50% del ancho */
     padding-left: 20px; 
     margin-bottom: 100px;
 }
-
 .hero div:last-child {
     flex: 1; /* Hace que este div ocupe el 50% del ancho */
     padding-left: 20px; 
 }
-
 .hero img {
     max-width:  90%; 
     margin-left: 60px; /* Ajusta el espacio entre la imagen y el borde izquierdo */
     margin-right: 20px;
     margin-top: 150px;
 }
-
 .hero h3 {
     margin-top: 60px; 
     margin-bottom: 10px; 
     margin-left: 40px;
     font-size: 17px;
 }
-
 .hero h1 {
     margin-top: 10px;
     margin-bottom: 10px; 
     margin-left: 40px;
     font-size: 60px;
 }
-
 .hero p {
     margin-left: 40px;
     font-size: 20px;
     margin-bottom: 60px;
     color: #222550;
 }
-
 .hero a {
     display: inline-block;
     background-color:#5E3BEF;
@@ -98,11 +91,9 @@ header div:last-child a {
 .hero a:hover {
     background-color: black; 
 }
-
 .skills {
     background-color: #f9f9f9; 
 }
-
 .skills .title-container {
     text-align: left;
     margin-left: 65px;
@@ -117,8 +108,6 @@ header div:last-child a {
     margin-bottom: 20px;
     font-size: 45px;
 }
-
-
 .skills .skills-container {
     display: flex;
     flex-wrap: wrap; 
@@ -128,7 +117,6 @@ header div:last-child a {
     max-width: 1200px; /* OJO, justar este valor para el máximo deseado */
     margin: 0 auto; 
 }
-
 .skills .skills-container > div {
     background-color: #F4FCFF;
     padding: 15px;
@@ -157,21 +145,18 @@ header div:last-child a {
     margin-bottom: 10px;
     border-radius: 8px;
 }
-
 .skills h2 {
     margin-bottom: 19px;
     font-size: 23px;
 }
-
 .skills p {
     font-size: 18px;
 }
-
 .About {
     display: flex; 
     margin-top: 200px;
+    margin-bottom: 130px;
 }
-
 .About > div {
     flex: 1; 
     padding: 20px; 
@@ -185,14 +170,12 @@ header div:last-child a {
     margin-left: 20px;
     font-size: 17px;
 }
-
 .About h1 {
     margin-top: 10px;
     margin-bottom: 23px; 
     margin-left: 20px;
     font-size: 47px;
 }
-
 .About p {
     margin-left: 20px;
     font-size: 19px;
@@ -203,4 +186,83 @@ header div:last-child a {
 }
 .About img {
     width: 600px;
+}
+.titleandlink {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 90px;
+    margin-left: 25px; 
+    margin-right: 20px;
+}
+.title-projects {
+    text-align: left;
+    margin-left: 30px; 
+}
+.title-projects h2 {
+    margin: 0;
+    font-size: 18px; /* Tamaño de fuente aumentado para h2 */
+    margin-bottom: 20px;
+    color: #282A37;
+}
+.title-projects h3 {
+    margin: 0;
+    font-size: 45px; /* Tamaño de fuente aumentado para h3 */
+    color: #282A37;
+}
+.github-link a {
+    display: flex;
+    align-items: center;
+    text-decoration: none;
+    color: #F7CDDC; 
+    font-weight: bold;
+    background-color: #E62872; /* Fondo rosado */
+    padding: 15px 18px; /* Ajuste de espaciado interno */
+    border-radius: 7px; 
+    margin-right: 30px;
+}
+.github-link img {
+    width: 25px;
+    margin-right: 5px;
+    filter: brightness(0) invert(1); /* Invierte el color del logo a blanco */
+}
+.Projects {
+    display: flex;
+    justify-content: space-around; /* Ajusta el espacio entre los divs */
+    flex-wrap: wrap; /* Permite que los divs se envuelvan en líneas */
+    text-align: left;
+    margin-bottom: 20px; /* Añade espacio entre los divs */
+    margin-left: 40px; 
+    margin-right: 8px;
+}
+
+.Projects h2 {
+    margin-top: 22px; /* Añade espacio entre la imagen y el título */
+    margin-left: 30px;
+    margin-bottom: 10px;
+}
+
+.Projects p {
+    margin-left: 30px;
+    margin-bottom: 10px;
+    color: #222550;
+    
+}
+.Projects a {
+    margin-left: 30px; 
+    display: inline-flex; 
+    text-decoration: none;
+    align-items: center; 
+    border-bottom: 1px solid #8F78F2;
+    color: #201F30;
+    font-weight: bold; 
+}
+.Projects a img {
+   width: 22px;
+   margin-left: 5px;
+   vertical-align: middle; /* Ajusta la alineación vertical de la flecha */
+}
+.Projects img{
+   border-radius: 5px;
+   width: 390px;
 }
