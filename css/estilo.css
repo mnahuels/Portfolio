@@ -82,6 +82,7 @@ header div:last-child a {
     margin-left: 40px;
     font-size: 20px;
     margin-bottom: 60px;
+    color: #222550;
 }
 
 .hero a {
@@ -99,26 +100,30 @@ header div:last-child a {
 }
 
 .skills {
-    padding: 20px 10px; /* Espacio interno alrededor del contenido */
-    background-color: #f9f9f9; /* Fondo para la sección de habilidades */
+    background-color: #f9f9f9; 
 }
 
 .skills .title-container {
     text-align: left;
-    width: 100%; 
-    max-width: 1200px; /* Ajusta este valor según el ancho máximo deseado */
-    margin: 0 auto 20px auto; /* Centra el contenedor y añade margen inferior */
+    margin-left: 65px;
+    margin-top: 110px;
+    margin-bottom: 100px;
+}
+.skills .title-container > h4 {
+    margin-bottom: 20px;
+    font-size: 15px;
+}
+.skills .title-container > h1 {
+    margin-bottom: 20px;
+    font-size: 45px;
 }
 
-.title-container {
-    margin-left: 6px; 
-}
 
 .skills .skills-container {
     display: flex;
     flex-wrap: wrap; 
     justify-content: space-between;
-    gap: 10px; 
+    gap: 13px; 
     width: 100%; 
     max-width: 1200px; /* OJO, justar este valor para el máximo deseado */
     margin: 0 auto; 
@@ -127,15 +132,26 @@ header div:last-child a {
 .skills .skills-container > div {
     background-color: #F4FCFF;
     padding: 15px;
-    box-shadow: 0 4px 8px rgba(0,0,0,0.1); /* OJO con los valores para el boxshadow */
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
     border-radius: 5px;
     text-align: left; 
     flex: 1 1 calc(25% - 10px); /* Cada elemento ocupa el 25% del ancho */
-    max-width: calc(25% - 10px); /* Asegura que no crezca más allá del 25% del contenedor */
-    box-sizing: border-box; /* Incluimos el padding y borde en el tamaño total del elemento */
-    min-height: 270px; /* OJO, justar este valor para la altura minima de los div que quiero.*/
+    max-width: calc(25% - 10px); /* Con esto nos aseguramos que no crezca más allá del 25% del contenedor */
+    box-sizing: border-box; /* Sirve para incluir el padding y borde en el tamaño total del elemento */
+    min-height: 290px; /* OJO, justar este valor para la altura minima de los div que quiero.*/
 }
-
+.skills .skills-container > div:nth-child(-n+4) {
+    margin-bottom: 60px;
+}
+.skills .skills-container > div:hover {
+    border-bottom: 3px solid #5330EC; 
+}
+.skills .skills-container > div:hover h2 {
+    color: #222550;
+}
+.skills .skills-container > div:hover p {
+    color: #222550;
+}
 .skills img {
     width: 60px;
     margin-bottom: 10px;
@@ -143,10 +159,10 @@ header div:last-child a {
 }
 
 .skills h2 {
-    margin-bottom: 10px;
-    font-size: 18px;
+    margin-bottom: 19px;
+    font-size: 23px;
 }
 
 .skills p {
-    font-size: 14px;
+    font-size: 18px;
 }
