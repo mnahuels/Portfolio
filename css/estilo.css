@@ -35,7 +35,7 @@ header nav :hover {
     color: #6851db; 
 }
 header div:last-child a {
-    border: 2px solid #947FF8; /* Borde violeta */
+    border: 2px solid #947FF8; 
     padding: 15px 17px;
     border-radius: 5px;
     color: #6851db ;
@@ -43,7 +43,7 @@ header div:last-child a {
 .hero {
     display: flex;
     align-items: center;
-    background-color: #F4FCFF; /* Ajusta el fondo verde */
+    background-color: #F4FCFF; 
 }
 .hero div:first-child {
     flex: 1; /* Hace que este div ocupe el 50% del ancho */
@@ -209,13 +209,13 @@ header div:last-child a {
 }
 .title-projects h2 {
     margin: 0;
-    font-size: 18px; /* Tamaño de fuente aumentado para h2 */
+    font-size: 18px;
     margin-bottom: 20px;
     color: #282A37;
 }
 .title-projects h3 {
     margin: 0;
-    font-size: 45px; /* Tamaño de fuente aumentado para h3 */
+    font-size: 45px; 
     color: #282A37;
 }
 .github-link a {
@@ -225,7 +225,7 @@ header div:last-child a {
     color: #F7CDDC; 
     font-weight: bold;
     background-color: #E62872; 
-    padding: 15px 18px; /* Ajuste de espaciado interno */
+    padding: 15px 18px; 
     border-radius: 7px; 
     margin-right: 30px;
 }
@@ -236,8 +236,8 @@ header div:last-child a {
 }
 .Projects {
     display: flex;
-    justify-content: space-around; /* Ajusta el espacio entre los divs */
-    flex-wrap: wrap; /* Permite que los divs se envuelvan en líneas */
+    justify-content: space-around;
+    flex-wrap: wrap; 
     text-align: left;
     margin-bottom: 130px; 
     margin-left: 40px; 
@@ -245,7 +245,7 @@ header div:last-child a {
 }
 
 .Projects h2 {
-    margin-top: 22px; /* Añade espacio entre la imagen y el título */
+    margin-top: 22px; 
     margin-left: 30px;
     margin-bottom: 10px;
 }
@@ -268,7 +268,7 @@ header div:last-child a {
 .Projects a img {
    width: 22px;
    margin-left: 5px;
-   vertical-align: middle; /* Ajusta la alineación vertical de la flecha */
+   vertical-align: middle; 
 }
 .Projects img{
    border-radius: 5px;
@@ -325,10 +325,10 @@ header div:last-child a {
     margin-top: 5px;
 
  }
- .customers-grid > div .extra-info h5 {
+ .customers-grid > div .extra-info p {
   color: #222550;
   margin-top: 5px;
-  font-size: 17px;
+  font-size: 18px;
  }
 
 .Customers p {
@@ -337,7 +337,7 @@ header div:last-child a {
     margin-top: 30px;
     color: #222550;
     line-height: 1.2;
-    font-size: 17px;
+    font-size: 18px;
 }
 .form {
     display: flex;
@@ -404,7 +404,7 @@ form p {
 
 .form-full label {
     display: block;
-    text-align: left; /* Alineación del texto a la izquierda */
+    text-align: left; 
 }
 
 .form-full input, 
@@ -430,8 +430,8 @@ input[type="submit"] {
     border: 2px solid #5E3BEF ;
     cursor: pointer;
     width: auto; 
-    padding: 12px 30px; /* Adjust padding for a smaller button */
-    font-size: 17px; /* Adjust font size for a smaller button */
+    padding: 12px 30px; 
+    font-size: 17px; 
     margin-top: 10px;
     margin-left: 310px;
 }
