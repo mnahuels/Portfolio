@@ -313,7 +313,24 @@ header div:last-child a {
 .customers-grid > div .extra-info {
     display: flex;
     margin-bottom: 30px;
+    margin-left: 10px;
 }
+.customers-grid > div .extra-info img {
+   margin-right: 20px;
+   width: 60px;
+}
+.customers-grid > div .extra-info h4 {
+    color: #1A1B2C ;
+    font-size: 16px;
+    margin-top: 5px;
+
+ }
+ .customers-grid > div .extra-info h5 {
+  color: #222550;
+  margin-top: 5px;
+  font-size: 17px;
+ }
+
 .Customers p {
     text-align: left;
     margin-bottom: 30px;
