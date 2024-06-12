@@ -313,7 +313,6 @@ header div:last-child a {
 .customers-grid > div .extra-info {
     display: flex;
     margin-bottom: 30px;
-    margin-left: 10px;
 }
 .customers-grid > div .extra-info img {
    margin-right: 20px;
